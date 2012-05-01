@@ -32,7 +32,7 @@ while(! $flag)
  	if (($sum%10)==0){
  		$flag = true;
  		echo $str;
- 		echo "Count" . $count;
+ 		//echo "Count" . $count;
  	}
  	else{
  		//echo "fail Luhn Check";
